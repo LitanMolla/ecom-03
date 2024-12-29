@@ -1,0 +1,646 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+/* All Common CSS End */
+
+/* Nav Part Start */
+#navPart{
+    margin: 24px 0;
+}
+
+.navLeft a{
+    margin-right: 35px;
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    transition: .5s;
+}
+.navRight a{
+    margin-left: 35px;
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    transition: .5s;
+}
+
+.navRight a:hover, .navLeft a:hover{
+    color: black;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.navSearchBox input{
+    background: transparent;
+    border: none;
+    outline: 0;
+    font-size: 13px;
+    color: gray;
+    line-height: 18px;
+}
+
+.navSearchBox button{
+    background: transparent;
+    border: none;
+    outline: 0;
+    font-size: 13px;
+    color: gray;
+    line-height: 18px;
+}
+
+.navSearchBox{
+    border: 1px solid gray;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.nav-link{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: black;
+    margin: 0 20px;
+}
+
+.nav-link i{
+    margin-left: 10px;
+}
+
+.navIconPart a i{
+    font-size: 18px;
+    margin-left: 24px;
+    color: black;
+}
+
+/* Nav Part End */
+
+/* Banner Part Start */
+.bannerLeft img{
+    border-radius: 20px;
+}
+
+.bannerLeft{
+    position: relative;
+}
+
+.bannerLeftText{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+.bannerLeftText h1{
+    color: #fff;
+    font-size: 90px;
+    line-height: 75px;
+}
+
+.bannerLeftText p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.bannerLeftText button{
+    color: #fff;
+    background: black;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    padding: 13px 55px;
+    border-radius: 27px;
+}
+
+.rightItem img{
+    border-radius: 20px;
+    width: 114%;
+}
+
+.rightItem{
+    position: relative;
+}
+
+.rItemText{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.rItemText h1{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+#bannerPart{
+    margin-bottom: 10px;
+}
+/* Banner Part End */
+
+
+/* Casual Part Start */
+#casualPart{
+    margin-bottom: 32px;
+}
+.casualText h1{
+    font-size: 65px;
+    line-height: 65px;
+}
+.casualText p{
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.3px;
+    margin-bottom: 42px;
+    margin-top: 24px;
+}
+
+.casualText button{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 13px 55px;
+    background: none;
+    border-radius: 27px;
+}
+
+.csualItem img{
+    border-radius: 20px;
+}
+
+.csualItem{
+    position: relative;
+}
+
+.cItemText{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.cArrow{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.cItemText h1{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #fff;
+    padding-right: 50px;
+    text-transform: capitalize;
+}
+
+.cArrow img{
+    margin-left: 50px;
+}
+/* Casual Part End */
+
+
+/* Product Part Start */
+.categoryButton ul{
+    padding: 0;
+    display: inline-block;
+}
+.categoryButton ul li{
+    display: inline-block;
+}
+.categoryButton ul li a{
+    color: black;
+    font-size: 14px;
+    line-height: 24px;
+    border: 1px solid gray;
+    padding: 13px 26px;
+    border-radius: 27px;
+    font-weight: 500;
+    transition: .5s;
+    margin-left: 10px;
+}
+
+.categoryButton ul li a:hover{
+    color: #fff;
+    background: black;
+}
+
+.productItem{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.favoriteBadge:hover{
+    background: #F15353;
+}
+.favoriteBadge{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    background: gray;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.favoriteBadge i{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+
+.productItem img{
+    border-radius: 20px;
+}
+
+.productItem h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.productItem h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* Product Part End */
+
+
+/* Colors Part Start */
+.colorsText h1{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 65px;
+    margin-right: 35px;
+}
+
+.colorsMenu ul{
+    padding: 0;
+}
+
+.colorsMenu li{
+    display: inline-block;
+    margin: 5px;
+}
+
+.colorsMenu ul li a{
+    color: black;
+    gap: 10px;
+    border: 1px solid gray;
+    padding: 12px;
+    border-radius: 27px;
+}
+
+.colorcircale{
+    /* background: red; */
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+}
+
+.navybl{
+    background: #233C6B;
+}
+
+.purple{
+    background: #B54EF4;
+}
+
+.pink{
+    background: #F44E8A;
+}
+
+.lg{
+    background: #B8E25F;
+}
+/* Colors Part End */
+
+
+/* Samantha Part Start */
+#samanthaPart{
+    margin: 40px 0;
+}
+.samanthaBG{
+    background: url(../images/samantha.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    border-radius: 30px;
+}
+
+.samanthaText h3{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.samanthaText h1{
+    font-size: 65px;
+    line-height: 65px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.samanthaText p{
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 14px;
+}
+
+.samanthaText h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.samanthaText h6{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+    padding: 0;
+}
+
+.samanthaProfile .photo{
+    height: 64px;
+    width: 64px;
+    visibility: hidden;
+    opacity: 0;
+}
+/* Samantha Part End */
+
+
+/* Why Part Start */
+#whyPart{
+    margin: 40px 0;
+}
+.whyHeader h1{
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 400;
+    margin-bottom: 56px;
+}
+
+.lovesItem .loveIcon{
+    height: 120px;
+    width: 120px;
+    background: black;
+    border-radius: 50%;
+}
+
+.lovesItem i{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    height: 100%;
+}
+
+.lovesItem h2{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-bottom: 4px;
+}
+
+.lovesItem p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+}
+/* Why Part End */
+
+
+/* Blog Part Start */
+#blogPart{
+    margin-bottom: 120px;
+}
+
+.blogHeader h1{
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+.blogImg img{
+    border-radius: 20px;
+}
+
+.blogPart h1{
+    font-size: 60px;
+    line-height: 65px;
+}
+.blogPart p{
+    font-size: 18px;
+    line-height: 26px;
+    padding-right: 30px;
+}
+
+.blogPart button:hover{
+    color: #fff;
+    background: black;
+}
+
+.blogPart button{
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 27px;
+    padding: 13px 30px;
+    font-weight: 500;
+    background: none;
+    transition: .5s;
+}
+/* Blog Part End */
+
+
+/* Footer Part Start */
+#footerPart{
+    background: black;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.footerLeft h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.footerLeft p{
+    color: rgba(255, 255, 255, 0.52);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    padding-right: 105px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.footerLeft input:focus{
+    color: gray;
+}
+
+.footerLeft input{
+    font-size: 13px;
+    line-height: 21px;
+    border-radius: 27px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    outline: 0;
+    background: none;
+}
+
+.footerLeft button{
+    border: none;
+    outline: 0;
+    border-radius: 27px;
+    background: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.footerMenu h5{
+    color: #fff;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.footerMenuItem ul{
+    padding: 0;
+}
+
+.footerMenuItem ul li{
+    margin-top: 16px;
+}
+
+.footerMenuItem li a:hover{
+    color: #fff;
+}
+
+.footerMenuItem li a{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.52);
+    transition: .5s;
+}
+/* Footer Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+

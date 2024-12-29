@@ -1,0 +1,464 @@
+/* Extra large devices */
+@media (min-width: 1200px) {  }
+
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    *{
+        overflow-x: hidden;
+    }
+
+    #navPart {
+        height: 0;
+        width: 0;
+        opacity: 0;
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bannerLeftText h1 {
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    .bannerLeftText {
+        top: 20px;
+        left: 20px;
+    }
+
+    .navSearchBox {
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .navIconPart {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navIconPart a i {
+        margin: 10 12px;
+    }
+
+    .rightItem img {
+        width: 100%;
+    }
+
+    .bannerLeft {
+        margin-bottom: 20px;
+    }
+
+    .rItemText h1 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .casualText h1 {
+        line-height: normal;
+    }
+
+    .casualText {
+        margin: 20px 0;
+    }
+
+    .csualItem {
+       margin: 0;
+       padding: 0;
+       height: 0;
+       width: 0;
+       visibility: hidden;
+       opacity: 0;
+    }
+
+    .categoryButton {
+        text-align: start !important;
+    }
+
+    .samanthaBG {
+        padding: 50px 30px;
+        background: url(../images/samanthaBGsm.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .samanthaText h3 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .samanthaText h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .samanthaText p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .samanthaText .photo {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .whyHeader h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        line-height: normal;
+    }
+
+    .blogPart h1 {
+        font-size: 40px;
+        line-height: normal;
+        margin: 30px 0;
+    }
+
+    #blogPart {
+        margin-bottom: 60px;
+    }
+
+    .footerLeft input {
+        font-size: 13px;
+        line-height: 21px;
+        border-radius: 27px;
+        padding: 10px 20px;
+        border: 1px solid gray;
+        outline: 0;
+        background: none;
+        /* width: 100%; */
+        color: gray;
+        margin-bottom: 10px;
+    }
+
+    .footerMenu {
+        margin-top: 60px;
+    }
+
+    /* .productPartClass{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    } */
+ }
+
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    *{
+        overflow-x: hidden;
+    }
+
+    #navPart {
+        height: 0;
+        width: 0;
+        opacity: 0;
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bannerLeftText h1 {
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    .bannerLeftText {
+        top: 20px;
+        left: 20px;
+    }
+
+    .navSearchBox {
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .navIconPart {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navIconPart a i {
+        margin: 10 12px;
+    }
+
+    .rightItem img {
+        width: 100%;
+    }
+
+    .bannerLeft {
+        margin-bottom: 20px;
+    }
+
+    .rItemText h1 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .casualText h1 {
+        line-height: normal;
+    }
+
+    .casualText {
+        margin: 20px 0;
+    }
+
+    .csualItem {
+       margin: 0;
+       padding: 0;
+       height: 0;
+       width: 0;
+       visibility: hidden;
+       opacity: 0;
+    }
+
+    .categoryButton {
+        text-align: start !important;
+    }
+
+    .samanthaBG {
+        padding: 50px 30px;
+        background: url(../images/samanthaBGsm.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .samanthaText h3 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .samanthaText h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .samanthaText p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .samanthaText .photo {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .whyHeader h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        line-height: normal;
+    }
+
+    .blogPart h1 {
+        font-size: 40px;
+        line-height: normal;
+        margin: 30px 0;
+    }
+
+    #blogPart {
+        margin-bottom: 60px;
+    }
+
+    .footerLeft input {
+        font-size: 13px;
+        line-height: 21px;
+        border-radius: 27px;
+        padding: 10px 20px;
+        border: 1px solid gray;
+        outline: 0;
+        background: none;
+        width: 100%;
+        color: gray;
+        margin-bottom: 10px;
+    }
+
+    .footerMenu {
+        margin-top: 60px;
+        display: grid !important;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .footerMenuItem:last-child{
+        margin-top: 30px;
+    }
+    /* .productPartClass{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    } */
+ }
+
+
+/* Extra small devices */
+@media (max-width: 575.98px) { 
+    *{
+        overflow-x: hidden;
+    }
+
+    #navPart {
+        height: 0;
+        width: 0;
+        opacity: 0;
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bannerLeftText h1 {
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    .bannerLeftText {
+        top: 20px;
+        left: 20px;
+    }
+
+    .navSearchBox {
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .navIconPart {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navIconPart a i {
+        margin: 10 12px;
+    }
+
+    .rightItem img {
+        width: 100%;
+    }
+
+    .bannerLeft {
+        margin-bottom: 20px;
+    }
+
+    .rItemText h1 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .casualText h1 {
+        line-height: normal;
+    }
+
+    .casualText {
+        margin: 20px 0;
+    }
+
+    .csualItem {
+       margin: 0;
+       padding: 0;
+       height: 0;
+       width: 0;
+       visibility: hidden;
+       opacity: 0;
+    }
+
+    .categoryButton {
+        text-align: start !important;
+    }
+
+    .samanthaBG {
+        padding: 50px 30px;
+        background: url(../images/samanthaBGsm.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .samanthaText h3 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .samanthaText h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .samanthaText p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .samanthaText .photo {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .whyHeader h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        line-height: normal;
+    }
+
+    .blogPart h1 {
+        font-size: 40px;
+        line-height: normal;
+        margin: 30px 0;
+    }
+
+    #blogPart {
+        margin-bottom: 60px;
+    }
+
+    .footerLeft input {
+        font-size: 13px;
+        line-height: 21px;
+        border-radius: 27px;
+        padding: 10px 20px;
+        border: 1px solid gray;
+        outline: 0;
+        background: none;
+        width: 100%;
+        color: gray;
+        margin-bottom: 10px;
+    }
+
+    .footerMenu {
+        margin-top: 60px;
+        display: grid !important;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .footerMenuItem:last-child{
+        margin-top: 30px;
+    }
+    .productPartClass{
+        /* display: grid;
+        grid-template-columns: 2fr 2fr; */
+        flex-wrap: wrap;
+    }
+
+    /* .productPartClass{
+        display: grid !important;
+        grid-template-columns: 2fr 2fr;
+    } */
+
+ }
